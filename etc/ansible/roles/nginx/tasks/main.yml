@@ -1,0 +1,5 @@
+---
+- name: Start
+  systemd:
+    name: nginx
+    state: started
